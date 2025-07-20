@@ -16,3 +16,15 @@ closeSvg.addEventListener("click", () => {
   closeSvg.classList.add("d-none");
   search.classList.remove("d-none");
 });
+
+// scroll and fixed header
+window.addEventListener("scroll", () => {
+  let bottomHeader = document.querySelector(".bottom-header");
+
+  if (window.scrollY > 150) {
+    bottomHeader.classList.add("fixed");
+    // console.log("salam");
+  } else {
+    bottomHeader.classList.remove("fixed");
+  }
+});
