@@ -23,7 +23,6 @@ window.addEventListener("scroll", () => {
 
   if (window.scrollY > 150) {
     bottomHeader.classList.add("fixed");
-    // console.log("salam");
   } else {
     bottomHeader.classList.remove("fixed");
   }
