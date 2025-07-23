@@ -22,6 +22,12 @@
     box-sizing: border-box;
 }
 
+body::selection {
+    background-color: var(--main-color);
+    color: var(--white-color);
+}
+
+
 section {
     overflow-x: hidden;
 }
