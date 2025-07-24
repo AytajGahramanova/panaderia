@@ -27,3 +27,6 @@ window.addEventListener("scroll", () => {
     bottomHeader.classList.remove("fixed");
   }
 });
+
+// gallery fancybox
+Fancybox.bind("[data-fancybox]", {});

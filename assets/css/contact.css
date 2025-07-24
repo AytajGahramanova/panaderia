@@ -1,0 +1,84 @@
+.contact-page {
+    .contact-img {
+        background-image: url(../images/contact/contact-inner-img.jpg);
+        margin-bottom: 90px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 350px;
+    }
+
+    .contact-info {
+        margin-bottom: 40px;
+
+        .title {
+            h1 {
+                font-size: 40px;
+                line-height: 1.25em;
+                font-weight: 500;
+                font-family: Cormorant, sans-serif;
+                letter-spacing: 0;
+                text-transform: uppercase;
+                color: #000;
+            }
+
+            p {
+                font-family: Mulish, sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 27px;
+                color: #545454;
+                margin: 10px 0;
+            }
+        }
+
+        .input {
+            width: 100%;
+        }
+
+        input,
+        textarea {
+            padding: 10px 25px;
+            margin: 0 0 21px;
+            background-color: transparent;
+            border: 1px solid #e2e2e2;
+            font-family: Mulish, sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            outline: none;
+            width: 400px;
+        }
+
+        .textarea-div {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            textarea {
+                height: 200px;
+                width: 63%;
+            }
+        }
+    }
+
+    .map {
+        width: 100%;
+
+        iframe {
+            width: 100%;
+            height: 500px;
+        }
+    }
+}
+
+@media (max-width:880px) {
+    .input {
+        flex-direction: column !important;
+
+    }
+
+    textarea {
+        width: 100% !important;
+    }
+}
