@@ -1,0 +1,41 @@
+.blog-page {
+    margin: 40px 0px;
+
+    .single-blog {
+        .blog-thumbnail {
+            width: 100%;
+            margin-bottom: 10px;
+
+            img {
+                width: 100%;
+                aspect-ratio: 269 / 207;
+                object-fit: cover;
+            }
+        }
+
+        .blog-title {
+            a {
+                color: #000;
+            }
+
+            h4 {
+                font-size: 23px;
+                font-weight: 600;
+                font-family: Cormorant, sans-serif;
+                letter-spacing: 0;
+                color: #000;
+                word-wrap: break-word;
+            }
+        }
+
+        .blog-desc {
+            a {
+                color: #545454;
+            }
+        }
+    }
+
+    .page-link {
+        color: #bb9230;
+    }
+}

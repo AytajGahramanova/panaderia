@@ -17,15 +17,23 @@ closeSvg.addEventListener("click", () => {
   search.classList.remove("d-none");
 });
 
-// scroll and fixed header
+// scroll and fixed header and scroll bottom
+let scrollButton = document.querySelector(".page-scroll-button");
 window.addEventListener("scroll", () => {
   let bottomHeader = document.querySelector(".bottom-header");
 
-  if (window.scrollY > 150) {
+  if (window.scrollY > 200) {
     bottomHeader.classList.add("fixed");
+    scrollButton.classList.remove("d-none");
   } else {
     bottomHeader.classList.remove("fixed");
+    scrollButton.classList.add("d-none");
   }
+});
+
+// scroll bottom
+scrollButton.addEventListener("click", () => {
+  window.scrollTo(0, 0);
 });
 
 // gallery fancybox
