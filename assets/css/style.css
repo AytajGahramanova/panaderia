@@ -520,8 +520,7 @@ footer {
         font-family: Muli, sans-serif;
         font-size: 16px;
         font-weight: 400;
-        line-height: 27px;
-        margin: 25px 0;
+        margin: 15px 0;
         color: var(--little-text-color);
     }
 
