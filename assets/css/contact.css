@@ -46,7 +46,8 @@
             font-size: 16px;
             font-weight: 400;
             outline: none;
-            width: 400px;
+            width: 100%;
+            /* max-width: 400px; */
         }
 
         .textarea-div {
@@ -57,7 +58,6 @@
 
             textarea {
                 height: 200px;
-                width: 63%;
             }
         }
     }
@@ -70,15 +70,20 @@
             height: 500px;
         }
     }
+
+    .contact-submit-btn {
+        background-color: #bb9230;
+        color: #fff;
+        font-size: 17px;
+        padding: 12px 50px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
 }
 
 @media (max-width:880px) {
     .input {
         flex-direction: column !important;
 
-    }
-
-    textarea {
-        width: 100% !important;
     }
 }

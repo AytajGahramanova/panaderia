@@ -36,5 +36,6 @@ scrollButton.addEventListener("click", () => {
   window.scrollTo(0, 0);
 });
 
-// gallery fancybox
+// fancybox
 Fancybox.bind("[data-fancybox]", {});
+
